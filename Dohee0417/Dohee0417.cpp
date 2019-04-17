@@ -7,6 +7,15 @@
 
 int main()
 {
+
+	int a, b, c;
+
 	printf("Hello \n");
 	printf("dohee \n");
+
+	printf("a b =");
+	scanf_s("%d %d",&a, &b);
+	c = a + b;
+
+	printf("%d + %d 는 %d 입니다.\n", a, b, c);
 }
